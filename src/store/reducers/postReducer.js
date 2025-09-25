@@ -6,5 +6,5 @@ const initialState = {
 };
 
 export const postReducer = (stte = initialState, action) => {
-
+    return state;
 };
