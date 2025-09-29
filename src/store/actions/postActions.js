@@ -12,7 +12,7 @@ export const fetchPostsFailure = (error) => ({
     payload: error,
 });
 
-export const fetchPost = () => async (dispatch) =>{
+export const fetchPosts = () => async (dispatch) =>{
     dispatch(fetchPostsRequest());
 
     try{
